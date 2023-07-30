@@ -9,10 +9,6 @@
 
 - 🌱 I’m currently learning **Flutter,Python,ChatGPT**
 
-- 🤝 I’m looking for help with **job**
-
-- 💬 Ask me about **iOS**
-
 - 📫 How to reach me **peterisyo@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
