@@ -6,8 +6,8 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badges/)
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sony9154&theme=solarized)
+![](./profile-summary-card-output/solarized/0-profile-details.svg)
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sony9154&theme=solarized) ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sony9154&theme=solarized)
+![](./profile-summary-card-output/solarized/1-repos-per-language.svg) ![](./profile-summary-card-output/solarized/2-most-commit-language.svg)
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=sony9154&theme=solarized) ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sony9154&theme=solarized&utcOffset=8)
+![](./profile-summary-card-output/solarized/3-stats.svg) ![](./profile-summary-card-output/solarized/4-productive-time.svg)

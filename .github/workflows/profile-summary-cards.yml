@@ -1,0 +1,25 @@
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    # 每天 UTC 18:00（台北 02:00）重新產生卡片
+    - cron: "0 18 * * *"
+  workflow_dispatch: # 允許在 Actions 頁手動觸發
+
+permissions:
+  contents: write # AUTO_PUSH 需要寫回 repo 的權限
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # 使用含 repo 權限的 PAT，才能納入「私有 repo」的語言與 commit 統計
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8 # productive-time 卡片用台北時區
